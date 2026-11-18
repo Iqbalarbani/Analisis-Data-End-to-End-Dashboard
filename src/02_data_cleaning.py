@@ -59,8 +59,7 @@ def clean_dataset(raw_path: str) -> tuple[pd.DataFrame, dict]:
         "remaining_rows": int(len(df)),
     })
 
-    # 2. Standardisasi nama kota (whitespace & variasi penulisan) ini update dikit 
-    
+    # 2. Standardisasi nama kota (whitespace & variasi penulisan)
     df["kota"] = df["kota"].apply(standardize_city)
     df["kecamatan"] = df["kecamatan"].astype(str).str.strip()
     audit_log["steps"].append({
