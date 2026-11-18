@@ -1,0 +1,228 @@
+{
+  "q1_harga_per_kota": [
+    {
+      "kota": "Jakarta Selatan",
+      "jumlah_listing": 309,
+      "rata_rata_harga_miliar": 4.62,
+      "rata_rata_harga_tanah_juta_m2": 38.49,
+      "rata_rata_lt_m2": 119.8,
+      "rata_rata_lb_m2": 124.4
+    },
+    {
+      "kota": "Jakarta Utara",
+      "jumlah_listing": 143,
+      "rata_rata_harga_miliar": 4.08,
+      "rata_rata_harga_tanah_juta_m2": 31.87,
+      "rata_rata_lt_m2": 128.4,
+      "rata_rata_lb_m2": 134.7
+    },
+    {
+      "kota": "Jakarta Barat",
+      "jumlah_listing": 203,
+      "rata_rata_harga_miliar": 3.64,
+      "rata_rata_harga_tanah_juta_m2": 29.44,
+      "rata_rata_lt_m2": 122.7,
+      "rata_rata_lb_m2": 126.7
+    },
+    {
+      "kota": "Jakarta Timur",
+      "jumlah_listing": 190,
+      "rata_rata_harga_miliar": 3.01,
+      "rata_rata_harga_tanah_juta_m2": 24.47,
+      "rata_rata_lt_m2": 124.1,
+      "rata_rata_lb_m2": 128.3
+    },
+    {
+      "kota": "Tangerang",
+      "jumlah_listing": 233,
+      "rata_rata_harga_miliar": 2.68,
+      "rata_rata_harga_tanah_juta_m2": 21.16,
+      "rata_rata_lt_m2": 127.6,
+      "rata_rata_lb_m2": 135.1
+    },
+    {
+      "kota": "Depok",
+      "jumlah_listing": 155,
+      "rata_rata_harga_miliar": 1.96,
+      "rata_rata_harga_tanah_juta_m2": 17.14,
+      "rata_rata_lt_m2": 114.8,
+      "rata_rata_lb_m2": 124.1
+    },
+    {
+      "kota": "Bekasi",
+      "jumlah_listing": 150,
+      "rata_rata_harga_miliar": 1.77,
+      "rata_rata_harga_tanah_juta_m2": 15.05,
+      "rata_rata_lt_m2": 117.6,
+      "rata_rata_lb_m2": 121.8
+    },
+    {
+      "kota": "Bogor",
+      "jumlah_listing": 100,
+      "rata_rata_harga_miliar": 1.45,
+      "rata_rata_harga_tanah_juta_m2": 13.17,
+      "rata_rata_lt_m2": 111.6,
+      "rata_rata_lb_m2": 115.6
+    }
+  ],
+  "q2_pengaruh_sertifikat": [
+    {
+      "sertifikat": "SHM",
+      "jumlah_listing": 1113,
+      "rata_rata_harga_miliar": 3.26,
+      "rata_rata_harga_tanah_juta_m2": 26.65
+    },
+    {
+      "sertifikat": "HGB",
+      "jumlah_listing": 291,
+      "rata_rata_harga_miliar": 2.88,
+      "rata_rata_harga_tanah_juta_m2": 23.82
+    },
+    {
+      "sertifikat": "Lainnya",
+      "jumlah_listing": 79,
+      "rata_rata_harga_miliar": 2.41,
+      "rata_rata_harga_tanah_juta_m2": 20.79
+    }
+  ],
+  "q3_akses_transportasi": [
+    {
+      "akses_tol": "Ya",
+      "kategori_jarak_stasiun": "Sedang (5-10 km)",
+      "jumlah_listing": 269,
+      "rata_rata_harga_miliar": 3.44,
+      "rata_rata_harga_tanah_juta_m2": 27.43
+    },
+    {
+      "akses_tol": "Ya",
+      "kategori_jarak_stasiun": "Dekat (2-5 km)",
+      "jumlah_listing": 397,
+      "rata_rata_harga_miliar": 3.4,
+      "rata_rata_harga_tanah_juta_m2": 27.37
+    },
+    {
+      "akses_tol": "Ya",
+      "kategori_jarak_stasiun": "Sangat Dekat (<2 km)",
+      "jumlah_listing": 188,
+      "rata_rata_harga_miliar": 3.34,
+      "rata_rata_harga_tanah_juta_m2": 27.13
+    },
+    {
+      "akses_tol": "Ya",
+      "kategori_jarak_stasiun": "Jauh (>10 km)",
+      "jumlah_listing": 54,
+      "rata_rata_harga_miliar": 2.49,
+      "rata_rata_harga_tanah_juta_m2": 22.38
+    },
+    {
+      "akses_tol": "Tidak",
+      "kategori_jarak_stasiun": "Dekat (2-5 km)",
+      "jumlah_listing": 262,
+      "rata_rata_harga_miliar": 2.9,
+      "rata_rata_harga_tanah_juta_m2": 24.22
+    },
+    {
+      "akses_tol": "Tidak",
+      "kategori_jarak_stasiun": "Sangat Dekat (<2 km)",
+      "jumlah_listing": 112,
+      "rata_rata_harga_miliar": 2.83,
+      "rata_rata_harga_tanah_juta_m2": 23.81
+    },
+    {
+      "akses_tol": "Tidak",
+      "kategori_jarak_stasiun": "Sedang (5-10 km)",
+      "jumlah_listing": 154,
+      "rata_rata_harga_miliar": 2.8,
+      "rata_rata_harga_tanah_juta_m2": 23.71
+    },
+    {
+      "akses_tol": "Tidak",
+      "kategori_jarak_stasiun": "Jauh (>10 km)",
+      "jumlah_listing": 47,
+      "rata_rata_harga_miliar": 2.49,
+      "rata_rata_harga_tanah_juta_m2": 21.61
+    }
+  ],
+  "q4_top_kecamatan_value": [
+    {
+      "kota": "Bogor",
+      "kecamatan": "Tanah Sareal",
+      "jumlah_listing": 22,
+      "rata_rata_harga_miliar": 1.23,
+      "rata_rata_lb_m2": 102.7,
+      "harga_tanah_juta_m2": 12.18
+    },
+    {
+      "kota": "Bogor",
+      "kecamatan": "Bogor Barat",
+      "jumlah_listing": 16,
+      "rata_rata_harga_miliar": 1.28,
+      "rata_rata_lb_m2": 95.9,
+      "harga_tanah_juta_m2": 13.01
+    },
+    {
+      "kota": "Bogor",
+      "kecamatan": "Gunung Putri",
+      "jumlah_listing": 20,
+      "rata_rata_harga_miliar": 1.59,
+      "rata_rata_lb_m2": 131.8,
+      "harga_tanah_juta_m2": 13.25
+    },
+    {
+      "kota": "Bogor",
+      "kecamatan": "Cibinong",
+      "jumlah_listing": 21,
+      "rata_rata_harga_miliar": 1.7,
+      "rata_rata_lb_m2": 132.2,
+      "harga_tanah_juta_m2": 13.3
+    },
+    {
+      "kota": "Bogor",
+      "kecamatan": "Sentul City",
+      "jumlah_listing": 20,
+      "rata_rata_harga_miliar": 1.45,
+      "rata_rata_lb_m2": 115.8,
+      "harga_tanah_juta_m2": 13.56
+    },
+    {
+      "kota": "Bekasi",
+      "kecamatan": "Cikarang",
+      "jumlah_listing": 23,
+      "rata_rata_harga_miliar": 1.83,
+      "rata_rata_lb_m2": 131.0,
+      "harga_tanah_juta_m2": 14.39
+    },
+    {
+      "kota": "Bekasi",
+      "kecamatan": "Tambun",
+      "jumlah_listing": 27,
+      "rata_rata_harga_miliar": 1.81,
+      "rata_rata_lb_m2": 116.3,
+      "harga_tanah_juta_m2": 14.49
+    },
+    {
+      "kota": "Bekasi",
+      "kecamatan": "Galaxy",
+      "jumlah_listing": 26,
+      "rata_rata_harga_miliar": 1.65,
+      "rata_rata_lb_m2": 120.2,
+      "harga_tanah_juta_m2": 15.07
+    },
+    {
+      "kota": "Bekasi",
+      "kecamatan": "Summarecon Bekasi",
+      "jumlah_listing": 27,
+      "rata_rata_harga_miliar": 1.75,
+      "rata_rata_lb_m2": 117.5,
+      "harga_tanah_juta_m2": 15.32
+    },
+    {
+      "kota": "Bekasi",
+      "kecamatan": "Jatiasih",
+      "jumlah_listing": 20,
+      "rata_rata_harga_miliar": 1.71,
+      "rata_rata_lb_m2": 114.5,
+      "harga_tanah_juta_m2": 15.48
+    }
+  ]
+}

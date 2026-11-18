@@ -1,0 +1,58 @@
+{
+  "metrics": {
+    "Linear Regression (Baseline)": {
+      "MAE_juta_rp": 534.64,
+      "RMSE_juta_rp": 825.76,
+      "MAPE_persen": 23.85,
+      "R2_score": 0.8973
+    },
+    "Random Forest Regressor": {
+      "MAE_juta_rp": 453.16,
+      "RMSE_juta_rp": 879.29,
+      "MAPE_persen": 13.8,
+      "R2_score": 0.8836
+    }
+  },
+  "top_features": [
+    {
+      "feature": "luas_tanah_m2",
+      "importance": 0.6679356802673571
+    },
+    {
+      "feature": "kota_Jakarta Selatan",
+      "importance": 0.13138193969218875
+    },
+    {
+      "feature": "luas_bangunan_m2",
+      "importance": 0.06514300170464667
+    },
+    {
+      "feature": "kota_Jakarta Utara",
+      "importance": 0.027703770611410067
+    },
+    {
+      "feature": "kota_Jakarta Barat",
+      "importance": 0.023987073891722534
+    },
+    {
+      "feature": "jarak_stasiun_km",
+      "importance": 0.015973139871999324
+    },
+    {
+      "feature": "kota_Jakarta Timur",
+      "importance": 0.009582573366042702
+    },
+    {
+      "feature": "kota_Tangerang",
+      "importance": 0.008277932617666845
+    },
+    {
+      "feature": "kondisi_Baru",
+      "importance": 0.00690472945881235
+    },
+    {
+      "feature": "kota_Bogor",
+      "importance": 0.00583661983771806
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "initial_rows": 1532,
+  "initial_missing": 145,
+  "steps": [
+    {
+      "step": "1. Deduplikasi Data",
+      "action": "Menghapus baris duplikat identik dan duplikat id_listing (keep='first').",
+      "rows_removed": 32,
+      "remaining_rows": 1500
+    },
+    {
+      "step": "2. Standardisasi Kategori Lokasi",
+      "action": "Menghapus spasi berlebih dan memetakan variasi penulisan kota (mis. 'jak-sel', 'JakTim', 'Kab. Bogor') ke 8 wilayah administratif standar Jabodetabek.",
+      "unique_cities": [
+        "Bekasi",
+        "Bogor",
+        "Depok",
+        "Jakarta Barat",
+        "Jakarta Selatan",
+        "Jakarta Timur",
+        "Jakarta Utara",
+        "Tangerang"
+      ]
+    },
+    {
+      "step": "3. Penghapusan Target Null",
+      "action": "Menghapus baris dengan harga_juta_rp bernilai NaN karena merupakan variabel target utama dan imputasi berisiko menimbulkan bias harga.",
+      "rows_removed": 12,
+      "remaining_rows": 1488
+    },
+    {
+      "step": "4. Koreksi Satuan & Filter Outlier Domain",
+      "action": "Mengonversi salah input satuan Rupiah ke Juta Rupiah (/1.000.000) dan menghapus nilai tidak masuk akal (luas tanah <= 0, luas bangunan > 2.500 m2, harga < Rp 100 juta).",
+      "unit_corrected_rows": 2,
+      "rows_removed": 5,
+      "remaining_rows": 1483
+    },
+    {
+      "step": "5. Imputasi Missing Values",
+      "action": "Imputasi median per kota untuk luas_bangunan_m2 dan jarak_stasiun_km; imputasi median global untuk garasi; imputasi modus ('SHM') untuk sertifikat.",
+      "remaining_missing": 0
+    },
+    {
+      "step": "6. Feature Engineering & Casting Tipe Data",
+      "action": "Menambahkan fitur analitik: harga_miliar_rp, harga_per_m2_tanah_juta, rasio_bangunan_tanah, dan kategori_jarak_stasiun.",
+      "final_rows": 1483,
+      "final_columns": 17
+    }
+  ],
+  "final_rows": 1483
+}
